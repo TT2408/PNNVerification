@@ -1,0 +1,33 @@
+[
+  {
+    "id": "nn_mu0",
+    "label": "NN, mu=0",
+    "weights": "weights_sigmoid_BN_cr/NN_sigmoid_0_4x100_mnist_cr_0.0_resize_0_best.pt",
+    "sha256": "67c9638b937af0d3eac8dcfa58b487e0c35d364c6ed863c349c8e3030e4784dc",
+    "eps": 0.015,
+    "reference": {"DeepZono": 33.6, "DeepPoly": 84.0, "CROWN": 92.6, "VeriNet": 92.2, "VeriSmooth_numerical": 0.0}
+  },
+  {
+    "id": "nn_mu0.01",
+    "label": "NN, mu=0.01",
+    "weights": "weights_sigmoid_BN_cr/NN_sigmoid_0_4x100_mnist_cr_0.01_resize_0_best.pt",
+    "sha256": "5b0e570afe4054c6ca7e8d8cedfd8eca203c510556790d4da3cf6cafa0c96597",
+    "eps": 0.015,
+    "reference": {"DeepZono": 86.7, "DeepPoly": 87.0, "CROWN": 87.5, "VeriNet": 21.2, "VeriSmooth_numerical": 87.8}
+  },
+  {
+    "id": "nn_mu0.1",
+    "label": "NN, mu=0.1",
+    "weights": "weights_sigmoid_BN_cr/NN_sigmoid_0_4x100_mnist_cr_0.1_resize_0_best.pt",
+    "sha256": "0267aab79ce4949ea580a8a9800018142261ff7a0398ae339fbed8cc1ac08388",
+    "eps": 0.015,
+    "reference": {"DeepZono": 85.1, "DeepPoly": 85.1, "CROWN": 85.1, "VeriNet": 29.8, "VeriSmooth_numerical": 85.1}
+  },
+  {
+    "id": "quadratic",
+    "label": "Quadratic PN",
+    "weights": "weights_vs_GUROBI_retrain_yt/CCP_1_order_2_hidden_16_mnist_resize_0_best.pt",
+    "sha256": "fd3fd78d1acb626a292dda645af1d6d4ccd56394354e7ce9c7fbd71fd0fc4961",
+    "eps": 0.05
+  }
+]
